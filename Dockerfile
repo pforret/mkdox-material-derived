@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material:latest
+FROM --platform=linux/amd64 squidfunk/mkdocs-material:latest
 
 # https://stackoverflow.com/questions/36075525/how-do-i-run-a-docker-instance-from-a-dockerfile
 
