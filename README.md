@@ -1,3 +1,8 @@
+![GitHub Tag](https://img.shields.io/github/v/tag/pforret/mkdox-material-derived)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/pforret/mkdox-material-derived)
+![GitHub last commit](https://img.shields.io/github/last-commit/pforret/mkdox-material-derived)
+
+
 # mkdox-material-derived
 
 Docker build for mkdocs / material with some essential plugins
