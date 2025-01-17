@@ -4,12 +4,12 @@ FROM --platform=linux/amd64 squidfunk/mkdocs-material:latest
 
 ## install plugins
 RUN pip install --no-cache-dir \
+	mkdocs-autolinks-plugin \
 	mkdocs-awesome-pages-plugin \
-	mkdocs-include-markdown-plugin \
 	mkdocs-git-revision-date-localized-plugin \
 	mkdocs-glightbox \
+	mkdocs-include-markdown-plugin \
 	mkdocs-minify-plugin \
-	mkdocs-autolinks-plugin \
 	mkdocs-rss-plugin \
 	markdown-include
 
